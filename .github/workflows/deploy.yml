@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy / Update Hello World App
         run: |
-          kubectl apply -f k8s/hello-nginx.yaml
+          kubectl apply -f k3s/hello-nginx.yaml
